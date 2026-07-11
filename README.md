@@ -1,13 +1,36 @@
-# ColourNora.art – Version 6 Editorial Gallery
+# ColourNora.art – neue Galerie-Version
 
-- Eine Galerie ohne Kategorien
-- Sehr wenig Text
-- Professionelle Porträts ohne Studio-/Atelier-Bezeichnung
-- Lightbox und Werk-Anfrage
-- Werkinformationen zentral in `content.json`
+Diese Version enthält:
+- Nora Göller als Künstlernamen
+- neues Hero-Bild
+- Canvas
+- Works on Paper
+- Exhibitions
+- About
+- Contact
+- Werkdetailansicht mit Medium, Maßen, Jahr, Status und Anfrage-Link
 
-## Titel und Status ändern
-Bearbeite in `content.json` pro Werk `title`, `details` und optional `status` (`Sold` oder `Private Collection`).
+## Hochladen zu GitHub
+1. ZIP-Datei entpacken.
+2. Im Repository `colournora-website` alle bestehenden Website-Dateien ersetzen.
+3. Den gesamten Inhalt dieses Ordners hochladen.
+4. `index.html` muss direkt oben im Repository liegen.
+5. Auf `Commit changes` tippen.
+6. Netlify veröffentlicht automatisch.
 
-## GitHub/Netlify
-Den Inhalt dieses Ordners in das bestehende Repository `colournora-website` hochladen. `index.html` muss oben im Repository liegen. Netlify veröffentlicht danach automatisch.
+## Inhalte ändern
+In `content.json` kannst du später Titel, Maße, Jahr und Status ergänzen.
+
+Beispiel:
+```json
+{
+  "image": "canvas-01.jpg",
+  "title": "Originaltitel",
+  "medium": "Acryl auf Leinwand",
+  "size": "100 × 120 cm",
+  "year": "2025",
+  "status": "Sold"
+}
+```
+
+Die drei Paper-Werke sind anhand der derzeit verfügbaren Informationen zugeordnet. Bitte später prüfen.

@@ -3,64 +3,123 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="ColourNora.art – abstrakte Kunst von Nora Göller aus Hamburg.">
-  <title>ColourNora.art — Nora Göller</title>
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Nora Göller – zeitgenössische abstrakte Kunst aus Hamburg.">
+  <meta property="og:title" content="Nora Göller — ColourNora.art">
+  <meta property="og:description" content="Contemporary Abstract Artist from Hamburg.">
+  <meta property="og:image" content="hero.png">
+  <title>Nora Göller — ColourNora.art</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="site-header">
-  <a class="wordmark" href="#top">ColourNora.art</a>
-  <button class="menu" aria-label="Menü öffnen" aria-expanded="false"><span></span><span></span></button>
-  <nav><a href="#works">Works</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
-</header>
+  <header class="site-header">
+    <a class="brand" href="#top">Nora Göller</a>
+    <button class="menu-button" aria-label="Menü öffnen" aria-expanded="false"><span></span><span></span></button>
+    <nav>
+      <a href="#canvas">Canvas</a>
+      <a href="#paper">Paper</a>
+      <a href="#exhibitions">Exhibitions</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<main id="top">
-  <section class="hero">
-    <div class="hero-copy reveal">
-      <p class="eyebrow">Nora Göller · Hamburg</p>
-      <h1>Colour.<br>Flow.<br>Feeling.</h1>
-      <a href="#works">View works ↓</a>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">ColourNora.art · Hamburg</p>
+        <h1>Nora<br>Göller</h1>
+        <p class="subtitle">Contemporary Abstract Artist</p>
+        <a class="hero-link" href="#canvas">Explore the collection ↓</a>
+      </div>
+      <figure class="hero-image reveal">
+        <img src="hero.png" alt="Gerahmtes abstraktes Kunstwerk von Nora Göller">
+      </figure>
+    </section>
+
+    <section class="intro reveal">
+      <p>Colour, movement and organic structures.</p>
+    </section>
+
+    <section class="collection" id="canvas">
+      <div class="section-head reveal">
+        <p class="eyebrow">Selected works</p>
+        <h2>Canvas</h2>
+      </div>
+      <div class="gallery" id="canvas-gallery"></div>
+    </section>
+
+    <section class="collection paper-section" id="paper">
+      <div class="section-head reveal">
+        <p class="eyebrow">Selected works</p>
+        <h2>Works on Paper</h2>
+      </div>
+      <div class="gallery compact" id="paper-gallery"></div>
+    </section>
+
+    <section class="exhibitions" id="exhibitions">
+      <div class="section-head reveal">
+        <p class="eyebrow">CV</p>
+        <h2>Exhibitions</h2>
+      </div>
+      <div id="exhibition-list" class="exhibition-list reveal"></div>
+    </section>
+
+    <section class="about" id="about">
+      <figure class="about-image reveal">
+        <img src="portrait-1.jpg" alt="Nora Göller mit einem Kunstwerk">
+      </figure>
+      <div class="about-copy reveal">
+        <p class="eyebrow">About</p>
+        <h2>Nora<br>Göller</h2>
+        <p id="about-text"></p>
+      </div>
+    </section>
+
+    <section class="portrait-grid" aria-label="Porträts von Nora Göller">
+      <figure class="reveal"><img src="portrait-2.jpg" alt="Porträt von Nora Göller"></figure>
+      <figure class="reveal"><img src="portrait-3.jpg" alt="Nora Göller mit gerahmtem Kunstwerk"></figure>
+      <figure class="wide reveal"><img src="portrait-4.jpg" alt="Nora Göller mit mehreren Kunstwerken"></figure>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s talk<br>about art.</h2>
+      </div>
+      <div class="contact-links reveal">
+        <a id="email-link" href="#">colournora.art@gmail.com</a>
+        <a id="instagram-link" href="#" target="_blank" rel="noopener">@colournora.art ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Nora Göller</span>
+    <a href="#top">Top ↑</a>
+  </footer>
+
+  <dialog class="art-dialog">
+    <button class="close" aria-label="Schließen">×</button>
+    <div class="dialog-layout">
+      <img src="" alt="">
+      <div class="art-info">
+        <p class="eyebrow">Artwork</p>
+        <h3></h3>
+        <dl>
+          <div><dt>Medium</dt><dd class="medium"></dd></div>
+          <div><dt>Size</dt><dd class="size"></dd></div>
+          <div><dt>Year</dt><dd class="year"></dd></div>
+          <div class="status-row"><dt>Status</dt><dd class="status"></dd></div>
+        </dl>
+        <a class="inquiry" href="#">Inquire about this artwork ↗</a>
+      </div>
     </div>
-    <figure class="hero-image reveal">
-      <img src="hero.png" alt="ColourNora Kunstwerk in einem modernen Raum">
-    </figure>
-  </section>
+  </dialog>
 
-  <section class="works" id="works">
-    <div class="works-head reveal"><p class="eyebrow">Selected works</p><h2>Works</h2></div>
-    <div class="gallery" id="gallery"></div>
-  </section>
-
-  <section class="about" id="about">
-    <figure class="about-main reveal"><img src="portrait-1.jpg" alt="Nora Göller mit einem ihrer Werke"></figure>
-    <div class="about-copy reveal"><p class="eyebrow">About</p><h2>Nora<br>Göller</h2><p id="about-text"></p></div>
-  </section>
-
-  <section class="portraits" aria-label="Porträts von Nora Göller">
-    <figure class="reveal"><img src="portrait-2.jpg" alt="Porträt von Nora Göller"></figure>
-    <figure class="reveal"><img src="portrait-3.jpg" alt="Nora Göller mit gerahmtem Kunstwerk"></figure>
-    <figure class="reveal wide"><img src="portrait-4.jpg" alt="Nora Göller mit mehreren Werken"></figure>
-  </section>
-
-  <section class="contact" id="contact">
-    <div class="reveal"><p class="eyebrow">Contact</p><h2>Let’s talk<br>about art.</h2></div>
-    <div class="contact-links reveal">
-      <a id="email-link" href="#">colournora.art@gmail.com</a>
-      <a id="instagram-link" href="#" target="_blank" rel="noopener">@colournora.art ↗</a>
-    </div>
-  </section>
-</main>
-
-<footer><span>© <span id="year"></span> ColourNora.art</span><a href="#top">Top ↑</a></footer>
-
-<dialog class="lightbox">
-  <button class="close" aria-label="Schließen">×</button>
-  <img src="" alt="">
-  <div class="caption"><div><h3></h3><p></p><span></span></div><a class="inquiry" href="#">Anfragen ↗</a></div>
-</dialog>
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

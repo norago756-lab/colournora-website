@@ -1,127 +1,108 @@
 {
-  "about": "Nora Göller lebt und arbeitet in Hamburg. Ihre abstrakten Arbeiten entstehen intuitiv mit Acryl auf Leinwand und Papier – geprägt von Farbe, Bewegung und Natur.",
+  "artist": "Nora Göller",
+  "subtitle": "Contemporary Abstract Artist",
   "email": "colournora.art@gmail.com",
   "instagram": "https://www.instagram.com/colournora.art?igsh=YTJtc25nempyZXFp",
-  "works": [
+  "about": "Nora Göller lebt und arbeitet in Hamburg. Ihre abstrakten Arbeiten entstehen intuitiv mit Acryl auf Leinwand und Papier. Farbe, Bewegung und organische Strukturen prägen ihre Bildsprache.",
+  "canvas": [
     {
-      "image": "work-01.jpg",
+      "image": "canvas-01.jpg",
       "title": "Titel folgt",
-      "details": "Acryl auf Leinwand",
+      "medium": "Acryl auf Leinwand",
+      "size": "Maße folgen",
+      "year": "Jahr folgt",
       "status": ""
     },
     {
-      "image": "work-02.jpg",
+      "image": "canvas-02.jpg",
       "title": "Titel folgt",
-      "details": "Acryl auf Leinwand",
+      "medium": "Acryl auf Leinwand",
+      "size": "Maße folgen",
+      "year": "Jahr folgt",
       "status": ""
     },
     {
-      "image": "work-03.jpg",
+      "image": "canvas-03.jpg",
       "title": "Titel folgt",
-      "details": "Acryl auf Leinwand",
+      "medium": "Acryl auf Leinwand",
+      "size": "Maße folgen",
+      "year": "Jahr folgt",
       "status": ""
     },
     {
-      "image": "work-04.jpg",
+      "image": "canvas-04.jpg",
       "title": "Titel folgt",
-      "details": "Acryl auf Leinwand",
+      "medium": "Acryl auf Leinwand",
+      "size": "Maße folgen",
+      "year": "Jahr folgt",
       "status": ""
     },
     {
-      "image": "work-05.jpg",
+      "image": "canvas-05.jpg",
       "title": "Titel folgt",
-      "details": "Acryl auf Leinwand",
+      "medium": "Acryl auf Leinwand",
+      "size": "Maße folgen",
+      "year": "Jahr folgt",
       "status": ""
     },
     {
-      "image": "work-06.jpg",
+      "image": "canvas-06.jpg",
       "title": "Titel folgt",
-      "details": "Acryl auf Leinwand",
+      "medium": "Acryl auf Leinwand",
+      "size": "Maße folgen",
+      "year": "Jahr folgt",
       "status": ""
     },
     {
-      "image": "work-07.jpg",
+      "image": "canvas-07.jpg",
       "title": "Titel folgt",
-      "details": "Acryl auf Leinwand",
+      "medium": "Acryl auf Leinwand",
+      "size": "Maße folgen",
+      "year": "Jahr folgt",
+      "status": ""
+    }
+  ],
+  "paper": [
+    {
+      "image": "paper-01.jpg",
+      "title": "Titel folgt",
+      "medium": "Acryl / Mixed Media auf Papier",
+      "size": "Maße folgen",
+      "year": "Jahr folgt",
       "status": ""
     },
     {
-      "image": "work-08.jpg",
+      "image": "paper-02.jpg",
       "title": "Titel folgt",
-      "details": "Acryl auf Leinwand",
+      "medium": "Acryl / Mixed Media auf Papier",
+      "size": "Maße folgen",
+      "year": "Jahr folgt",
       "status": ""
     },
     {
-      "image": "work-09.jpg",
+      "image": "paper-03.jpg",
       "title": "Titel folgt",
-      "details": "Acryl auf Leinwand",
+      "medium": "Acryl / Mixed Media auf Papier",
+      "size": "Maße folgen",
+      "year": "Jahr folgt",
       "status": ""
+    }
+  ],
+  "exhibitions": [
+    {
+      "title": "Hamburg zeigt Kunst",
+      "location": "Hamburg",
+      "year": "Jahr ergänzen"
     },
     {
-      "image": "work-10.jpg",
-      "title": "Titel folgt",
-      "details": "Acryl auf Leinwand",
-      "status": ""
+      "title": "Schaufenster zeigt Kunst",
+      "location": "Hamburg",
+      "year": "Jahr ergänzen"
     },
     {
-      "image": "work-11.jpg",
-      "title": "Titel folgt",
-      "details": "Acryl auf Leinwand",
-      "status": ""
-    },
-    {
-      "image": "work-12.jpg",
-      "title": "Titel folgt",
-      "details": "Acryl auf Leinwand",
-      "status": ""
-    },
-    {
-      "image": "work-13.jpg",
-      "title": "Titel folgt",
-      "details": "Acryl auf Leinwand",
-      "status": ""
-    },
-    {
-      "image": "work-14.jpg",
-      "title": "Titel folgt",
-      "details": "Acryl auf Leinwand",
-      "status": ""
-    },
-    {
-      "image": "work-15.jpg",
-      "title": "Titel folgt",
-      "details": "Acryl auf Leinwand",
-      "status": ""
-    },
-    {
-      "image": "work-16.jpg",
-      "title": "Titel folgt",
-      "details": "Acryl auf Leinwand",
-      "status": ""
-    },
-    {
-      "image": "work-17.jpg",
-      "title": "Titel folgt",
-      "details": "Acryl auf Leinwand",
-      "status": ""
-    },
-    {
-      "image": "work-18.jpg",
-      "title": "Titel folgt",
-      "details": "Arbeit auf Papier",
-      "status": ""
-    },
-    {
-      "image": "work-19.jpg",
-      "title": "Titel folgt",
-      "details": "Arbeit auf Papier",
-      "status": ""
-    },
-    {
-      "image": "work-20.jpg",
-      "title": "Titel folgt",
-      "details": "Arbeit auf Papier",
-      "status": ""
+      "title": "Gruppenausstellung in einem Geschäft",
+      "location": "Hamburg",
+      "year": "Jahr ergänzen"
     }
   ]
 }
