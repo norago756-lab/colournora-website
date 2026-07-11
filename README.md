@@ -1,18 +1,14 @@
-# ColourNora.art Homepage
+# ColourNora.art – Version 5 (Digital Exhibition)
 
-Enthalten:
-- Responsive One-Page-Website
-- Logo, Vita und Kunstwerke
-- Bildergalerie mit Fullscreen-Lightbox
-- Kontaktlinks zu E-Mail und Instagram
-- Mobile Navigation
+Neu:
+- sehr reduzierte, weiße Galerie-Optik
+- neues Hero-Bild
+- deutlich weniger Text
+- große, ruhige Typografie
+- Werke werden vollständig dargestellt
+- neue Nora-Sektion
+- Atelier-/Studio-Bildstrecke unter der Vita
+- noch kompaktere Navigation und Kontaktsektion
 
-## Vorschau
-Öffne `index.html` in einem Browser.
-
-## Veröffentlichung
-Den gesamten Ordner bei deinem Webhoster hochladen. Die Startdatei ist `index.html`.
-
-Hinweis:
-Die Werktitel und Materialangaben sind aktuell redaktionelle Platzhalter und können in `index.html` ersetzt werden.
-Für eine öffentliche deutsche Website sollten Impressum und Datenschutzerklärung mit deinen vollständigen Pflichtangaben ergänzt werden.
+## Netlify
+ZIP herunterladen und unter **Deploys → Upload deploy / Upload ZIP** hochladen.
