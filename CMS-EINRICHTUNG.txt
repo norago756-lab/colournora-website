@@ -1,0 +1,34 @@
+# ColourNora.art mit kostenlosem Admin-Bereich
+
+## Dateien hochladen
+Den gesamten entpackten Inhalt in dein bestehendes GitHub-Repository
+`norago756-lab/colournora-website` hochladen und vorhandene Dateien ersetzen.
+
+Netlify veröffentlicht die Änderung automatisch.
+
+## Einmalige Einrichtung in Netlify
+
+1. Öffne das Projekt `colournora`.
+2. Aktiviere unter **Identity** den Identity-Dienst.
+3. Stelle die Registrierung auf **Invite only / Nur Einladungen**.
+4. Aktiviere unter **Services → Git Gateway** den Git Gateway.
+5. Lade dich selbst unter **Identity → Invite users** mit deiner E-Mail-Adresse ein.
+6. Öffne die Einladungs-E-Mail und lege ein Passwort fest.
+
+Danach erreichst du die Verwaltung unter:
+
+https://colournora.netlify.app/admin/
+
+## Was du dort bearbeiten kannst
+
+- Künstlername und Untertitel
+- About-Text
+- E-Mail und Instagram
+- Leinwandarbeiten
+- Arbeiten auf Papier
+- Bilder hochladen
+- Titel, Technik, Maße, Jahr und Status
+- Ausstellungen
+
+Beim Speichern schreibt Decap CMS die Änderung in GitHub.
+Netlify veröffentlicht sie anschließend automatisch.
