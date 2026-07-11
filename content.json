@@ -91,18 +91,23 @@
   "exhibitions": [
     {
       "title": "Hamburg zeigt Kunst",
-      "location": "Hamburg",
-      "year": "Jahr ergänzen"
+      "location": "Cruise Center Hamburg",
+      "year": "März 2026",
+      "description": "Teilnahme an Hamburg zeigt Kunst im Cruise Center Hamburg."
     },
     {
       "title": "Schaufenster zeigt Kunst",
-      "location": "Hamburg",
-      "year": "Jahr ergänzen"
+      "location": "Altonale, Hamburg-Altona",
+      "year": "2026",
+      "description": "Präsentation ausgewählter Werke im Rahmen der Altonale."
     },
     {
-      "title": "Gruppenausstellung in einem Geschäft",
-      "location": "Hamburg",
-      "year": "Jahr ergänzen"
+      "title": "Rahmenwelt Ottensen",
+      "location": "Hamburg-Ottensen",
+      "year": "2026",
+      "description": "Präsentation eigener Werke in den Geschäftsräumen der Rahmenwelt Ottensen."
     }
-  ]
+  ],
+  "hero_image": "hero.png",
+  "about_image": "portrait-1.jpg"
 }

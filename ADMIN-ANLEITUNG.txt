@@ -1,0 +1,24 @@
+COLOURNORA – VERWALTUNGSSEITE
+
+1. Den kompletten entpackten Inhalt in das GitHub-Repository
+   norago756-lab/colournora-website hochladen.
+2. Vorhandene Dateien ersetzen und Commit changes auswählen.
+3. Netlify veröffentlicht die Website automatisch.
+
+Die Verwaltung liegt danach unter:
+https://colournora.netlify.app/admin/
+
+Einmalige Aktivierung in Netlify:
+- Identity aktivieren
+- Registrierung auf Invite only stellen
+- Git Gateway aktivieren
+- Eigene E-Mail-Adresse einladen
+- Passwort über die Einladungs-Mail festlegen
+
+Danach lassen sich bearbeiten:
+- Startbild
+- Über-mich-Bild und Text
+- Leinwandarbeiten und Papierarbeiten
+- Bilder, Titel, Technik, Maße, Jahr und Status
+- Ausstellungen
+- Kontaktangaben
