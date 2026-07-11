@@ -1,14 +1,13 @@
-# ColourNora.art – Version 5 (Digital Exhibition)
+# ColourNora.art – Version 6 Editorial Gallery
 
-Neu:
-- sehr reduzierte, weiße Galerie-Optik
-- neues Hero-Bild
-- deutlich weniger Text
-- große, ruhige Typografie
-- Werke werden vollständig dargestellt
-- neue Nora-Sektion
-- Atelier-/Studio-Bildstrecke unter der Vita
-- noch kompaktere Navigation und Kontaktsektion
+- Eine Galerie ohne Kategorien
+- Sehr wenig Text
+- Professionelle Porträts ohne Studio-/Atelier-Bezeichnung
+- Lightbox und Werk-Anfrage
+- Werkinformationen zentral in `content.json`
 
-## Netlify
-ZIP herunterladen und unter **Deploys → Upload deploy / Upload ZIP** hochladen.
+## Titel und Status ändern
+Bearbeite in `content.json` pro Werk `title`, `details` und optional `status` (`Sold` oder `Private Collection`).
+
+## GitHub/Netlify
+Den Inhalt dieses Ordners in das bestehende Repository `colournora-website` hochladen. `index.html` muss oben im Repository liegen. Netlify veröffentlicht danach automatisch.
