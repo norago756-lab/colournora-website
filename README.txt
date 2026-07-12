@@ -1,11 +1,16 @@
-COLOURNORA – RUHIGE GALERIE-VERSION
+COLOURNORA – FINALE VERSION
 
-Änderungen:
-- Die bisherigen Wohnraum-Mockups wurden vollständig entfernt.
-- Detailansicht jetzt: Original | Detail | Größenansicht.
-- Die Größenansicht zeigt nur eine ruhige, helle Wand ohne Möbel und Dekoration.
-- Galerie zeigt weiterhin nur Titel und Technik; Preis erst nach dem Anklicken.
-- Verwaltungsseite bleibt unter /admin/ erhalten.
+UPLOAD
+1. ZIP entpacken.
+2. Gesamten Inhalt in das GitHub-Repository hochladen und vorhandene Dateien ersetzen.
+3. Netlify veröffentlicht automatisch.
 
-UPLOAD:
-Alle Dateien aus diesem Ordner in GitHub hochladen und vorhandene Dateien ersetzen.
+ADMIN
+Nach dem Upload: https://colournora.netlify.app/admin/
+Standardcode: colournora
+
+WICHTIG
+Die Verwaltungsseite speichert Änderungen zunächst im Browser und kann eine neue content.json herunterladen. Damit Änderungen dauerhaft für alle Besucher gelten, die heruntergeladene content.json in GitHub ersetzen. Das ist eine statische, einfache Verwaltung ohne externen Dienst.
+
+BILDER
+Neue Bilder zuerst in den Ordner assets bei GitHub hochladen. Danach den Pfad im Admin eintragen, z. B. assets/mein-bild.jpg.
