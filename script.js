@@ -1,5 +1,36 @@
 const dialog=document.getElementById('detail');let current;
-fetch('content.json').then(r=>r.json()).then(data=>{document.getElementById('tagline').textContent=data.tagline;const g=document.getElementById('gallery');data.works.forEach(w=>{const a=document.createElement('article');a.className='work';a.dataset.category=w.category;a.innerHTML=`<button><img loading="lazy" src="${w.image}" alt="${w.title}"></button><div class="caption"><h3>${w.title}</h3><p>${w.medium}</p></div>`;g.appendChild(a);a.querySelector('button').onclick=()=>openWork(w,data.email)});document.querySelectorAll('.filters button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.filters button').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.querySelectorAll('.work').forEach(w=>w.classList.toggle('hidden',b.dataset.filter!=='all'&&w.dataset.category!==b.dataset.filter))})});
-function openWork(w,email){current=w;document.getElementById('detailImage').src=w.image;document.getElementById('roomImage').src=w.image;document.getElementById('detailTitle').textContent=w.title;document.getElementById('frame').className='frame '+w.category;document.getElementById('details').innerHTML=`<div><dt>Technik</dt><dd>${w.medium}</dd></div><div><dt>Maße</dt><dd>${w.size||'folgt'}</dd></div><div><dt>Preis</dt><dd>${w.price||'auf Anfrage'}</dd></div><div><dt>Status</dt><dd>${w.status==='Sold'?'Verkauft':'Verfügbar'}</dd></div><div><dt>Rahmung</dt><dd>Ungerahmt; Rahmung optional</dd></div>`;document.getElementById('inquiry').href=`mailto:${email}?subject=${encodeURIComponent('Anfrage zu '+w.title)}`;setView('original');dialog.showModal()}
-function setView(v){document.querySelectorAll('.display').forEach(x=>x.classList.add('hidden'));document.querySelector('.display.'+v).classList.remove('hidden');document.querySelectorAll('.switch button').forEach(x=>x.classList.toggle('active',x.dataset.view===v))}
-document.querySelectorAll('.switch button').forEach(b=>b.onclick=()=>setView(b.dataset.view));document.querySelector('.close').onclick=()=>dialog.close();
+fetch('content.json').then(r=>r.json()).then(data=>{
+  document.getElementById('tagline').textContent=data.tagline;
+  const g=document.getElementById('gallery');
+  data.works.forEach(w=>{
+    const a=document.createElement('article');
+    a.className='work';a.dataset.category=w.category;
+    a.innerHTML=`<button><img loading="lazy" src="${w.image}" alt="${w.title}"></button><div class="caption"><h3>${w.title}</h3><p>${w.medium}</p></div>`;
+    g.appendChild(a);a.querySelector('button').onclick=()=>openWork(w,data.email)
+  });
+  document.querySelectorAll('.filters button').forEach(b=>b.onclick=()=>{
+    document.querySelectorAll('.filters button').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active');
+    document.querySelectorAll('.work').forEach(w=>w.classList.toggle('hidden',b.dataset.filter!=='all'&&w.dataset.category!==b.dataset.filter))
+  })
+});
+function openWork(w,email){
+  current=w;
+  document.getElementById('detailImage').src=w.image;
+  document.getElementById('detailCrop').src=w.image;
+  document.getElementById('scaleImage').src=w.image;
+  document.getElementById('detailTitle').textContent=w.title;
+  document.getElementById('scaleFrame').className='scale-frame '+w.category;
+  document.getElementById('scaleLabel').textContent=w.size||'Größe folgt';
+  document.getElementById('details').innerHTML=`<div><dt>Technik</dt><dd>${w.medium}</dd></div><div><dt>Maße</dt><dd>${w.size||'folgt'}</dd></div><div><dt>Preis</dt><dd>${w.price||'auf Anfrage'}</dd></div><div><dt>Status</dt><dd>${w.status==='Sold'?'Verkauft':'Verfügbar'}</dd></div><div><dt>Rahmung</dt><dd>Ungerahmt; Rahmung optional</dd></div>`;
+  document.getElementById('inquiry').href=`mailto:${email}?subject=${encodeURIComponent('Anfrage zu '+w.title)}`;
+  setView('original');dialog.showModal()
+}
+function setView(v){
+  document.querySelectorAll('.display').forEach(x=>x.classList.add('hidden'));
+  document.querySelector('.display.'+v).classList.remove('hidden');
+  document.querySelectorAll('.switch button').forEach(x=>x.classList.toggle('active',x.dataset.view===v))
+}
+document.querySelectorAll('.switch button').forEach(b=>b.onclick=()=>setView(b.dataset.view));
+document.querySelector('.close').onclick=()=>dialog.close();
+dialog.addEventListener('click',e=>{const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close()});
