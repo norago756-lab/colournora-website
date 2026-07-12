@@ -1,113 +1,273 @@
 {
   "artist": "Nora Göller",
+  "brand": "ColourNora.art",
+  "tagline": "Feel free. Feel colour. Feel energy.",
   "subtitle": "Contemporary Abstract Artist",
   "email": "colournora.art@gmail.com",
   "instagram": "https://www.instagram.com/colournora.art?igsh=YTJtc25nempyZXFp",
-  "about": "Nora Göller lebt und arbeitet in Hamburg. Ihre abstrakten Arbeiten entstehen intuitiv mit Acryl auf Leinwand und Papier. Farbe, Bewegung und organische Strukturen prägen ihre Bildsprache.",
-  "canvas": [
+  "about": "Ich male, seit ich denken kann, und habe mich über viele Stilrichtungen zu meiner heutigen Bildsprache entwickelt. Meine Arbeiten entstehen frei, farbenfroh und intuitiv. Inspiriert von Menschen, Formen und der Natur liebe ich harmonische Übergänge, Bewegung und einen natürlichen Flow. Als nebenberufliche Künstlerin möchte ich mit meinen Werken Freiheit, Farbe und Energie in Räume bringen.",
+  "shipping_note": "Versand innerhalb Europas. International auf Anfrage.",
+  "framing_note": "Alle Werke werden ungerahmt angeboten. Eine professionelle Rahmung ist auf Wunsch gegen Aufpreis möglich. Raumansichten dienen der Veranschaulichung.",
+  "works": [
     {
-      "image": "canvas-01.jpg",
-      "title": "Titel folgt",
+      "category": "canvas",
+      "image": "lumiflow.jpg",
+      "room_image": "",
+      "title": "Lumiflow",
+      "size": "80 × 80 cm",
       "medium": "Acryl auf Leinwand",
-      "size": "Maße folgen",
-      "year": "Jahr folgt",
-      "status": ""
+      "year": "",
+      "price": "490 €",
+      "framing": "Ungerahmt",
+      "status": "Available"
     },
     {
-      "image": "canvas-02.jpg",
+      "category": "canvas",
+      "image": "canvas-untitled-80.jpg",
+      "room_image": "",
       "title": "Titel folgt",
+      "size": "80 × 80 cm",
       "medium": "Acryl auf Leinwand",
-      "size": "Maße folgen",
-      "year": "Jahr folgt",
-      "status": ""
+      "year": "",
+      "price": "510 €",
+      "framing": "Ungerahmt",
+      "status": "Available"
     },
     {
-      "image": "canvas-03.jpg",
-      "title": "Titel folgt",
+      "category": "canvas",
+      "image": "pulse.jpg",
+      "room_image": "",
+      "title": "Pulse",
+      "size": "60 × 90 cm",
       "medium": "Acryl auf Leinwand",
-      "size": "Maße folgen",
-      "year": "Jahr folgt",
-      "status": ""
+      "year": "",
+      "price": "490 €",
+      "framing": "Ungerahmt",
+      "status": "Available"
     },
     {
-      "image": "canvas-04.jpg",
-      "title": "Titel folgt",
+      "category": "canvas",
+      "image": "touch.jpg",
+      "room_image": "touch-room.png",
+      "title": "Touch",
+      "size": "50 × 60 cm",
       "medium": "Acryl auf Leinwand",
-      "size": "Maße folgen",
-      "year": "Jahr folgt",
-      "status": ""
+      "year": "",
+      "price": "380 €",
+      "framing": "Ungerahmt",
+      "status": "Available"
     },
     {
-      "image": "canvas-05.jpg",
-      "title": "Titel folgt",
+      "category": "canvas",
+      "image": "horizon.jpg",
+      "room_image": "",
+      "title": "Horizon",
+      "size": "50 × 70 cm",
       "medium": "Acryl auf Leinwand",
-      "size": "Maße folgen",
-      "year": "Jahr folgt",
-      "status": ""
+      "year": "",
+      "price": "390 €",
+      "framing": "Ungerahmt",
+      "status": "Available"
     },
     {
-      "image": "canvas-06.jpg",
-      "title": "Titel folgt",
-      "medium": "Acryl auf Leinwand",
-      "size": "Maße folgen",
-      "year": "Jahr folgt",
-      "status": ""
+      "category": "paper",
+      "image": "azure.jpg",
+      "room_image": "",
+      "title": "Azure",
+      "size": "42 × 56 cm",
+      "medium": "Acryl auf Papier",
+      "year": "",
+      "price": "180 €",
+      "framing": "Ungerahmt",
+      "status": "Available"
     },
     {
-      "image": "canvas-07.jpg",
-      "title": "Titel folgt",
-      "medium": "Acryl auf Leinwand",
-      "size": "Maße folgen",
-      "year": "Jahr folgt",
-      "status": ""
-    }
-  ],
-  "paper": [
-    {
-      "image": "paper-01.jpg",
-      "title": "Titel folgt",
-      "medium": "Acryl / Mixed Media auf Papier",
-      "size": "Maße folgen",
-      "year": "Jahr folgt",
-      "status": ""
+      "category": "paper",
+      "image": "drift-1.jpg",
+      "room_image": "",
+      "title": "Drift I",
+      "size": "42 × 56 cm",
+      "medium": "Acryl auf Papier",
+      "year": "",
+      "price": "160 €",
+      "framing": "Ungerahmt",
+      "status": "Available"
     },
     {
-      "image": "paper-02.jpg",
-      "title": "Titel folgt",
-      "medium": "Acryl / Mixed Media auf Papier",
-      "size": "Maße folgen",
-      "year": "Jahr folgt",
-      "status": ""
+      "category": "paper",
+      "image": "drift-2.jpg",
+      "room_image": "",
+      "title": "Drift II",
+      "size": "42 × 56 cm",
+      "medium": "Acryl auf Papier",
+      "year": "",
+      "price": "160 €",
+      "framing": "Ungerahmt",
+      "status": "Available"
     },
     {
-      "image": "paper-03.jpg",
-      "title": "Titel folgt",
-      "medium": "Acryl / Mixed Media auf Papier",
-      "size": "Maße folgen",
-      "year": "Jahr folgt",
-      "status": ""
+      "category": "paper",
+      "image": "drift-3.jpg",
+      "room_image": "",
+      "title": "Drift III",
+      "size": "42 × 56 cm",
+      "medium": "Acryl auf Papier",
+      "year": "",
+      "price": "160 €",
+      "framing": "Ungerahmt",
+      "status": "Available"
+    },
+    {
+      "category": "paper",
+      "image": "confluence.jpg",
+      "room_image": "",
+      "title": "Confluence",
+      "size": "42 × 60 cm",
+      "medium": "Acryl auf Papier",
+      "year": "",
+      "price": "220 €",
+      "framing": "Ungerahmt",
+      "status": "Available"
+    },
+    {
+      "category": "paper",
+      "image": "flux.jpg",
+      "room_image": "",
+      "title": "Flux",
+      "size": "42 × 56 cm",
+      "medium": "Acryl auf Papier",
+      "year": "",
+      "price": "220 €",
+      "framing": "Ungerahmt",
+      "status": "Available"
+    },
+    {
+      "category": "paper",
+      "image": "fuchsia.jpg",
+      "room_image": "",
+      "title": "Fuchsia",
+      "size": "42 × 60 cm",
+      "medium": "Acryl auf Papier",
+      "year": "",
+      "price": "220 €",
+      "framing": "Ungerahmt",
+      "status": "Available"
+    },
+    {
+      "category": "paper",
+      "image": "bliss.jpg",
+      "room_image": "",
+      "title": "Bliss",
+      "size": "21,5 × 30,5 cm",
+      "medium": "Acryl auf Papier",
+      "year": "",
+      "price": "80 €",
+      "framing": "Ungerahmt",
+      "status": "Available"
+    },
+    {
+      "category": "paper",
+      "image": "impulse.jpg",
+      "room_image": "",
+      "title": "Impulse",
+      "size": "42 × 60 cm",
+      "medium": "Mixed Media auf Papier",
+      "year": "",
+      "price": "110 €",
+      "framing": "Ungerahmt",
+      "status": "Available"
+    },
+    {
+      "category": "paper",
+      "image": "luminescence.jpg",
+      "room_image": "",
+      "title": "Luminescence",
+      "size": "30 × 40 cm",
+      "medium": "Acryl auf Papier",
+      "year": "",
+      "price": "79 €",
+      "framing": "Ungerahmt",
+      "status": "Available"
+    },
+    {
+      "category": "paper",
+      "image": "fusion.jpg",
+      "room_image": "",
+      "title": "Fusion",
+      "size": "30 × 40 cm",
+      "medium": "Acryl auf Papier",
+      "year": "",
+      "price": "79 €",
+      "framing": "Ungerahmt",
+      "status": "Available"
+    },
+    {
+      "category": "paper",
+      "image": "purple-rain.jpg",
+      "room_image": "",
+      "title": "Purple Rain",
+      "size": "42 × 60 cm",
+      "medium": "Mixed Media auf Papier",
+      "year": "",
+      "price": "110 €",
+      "framing": "Ungerahmt",
+      "status": "Available"
+    },
+    {
+      "category": "paper",
+      "image": "emerge.jpg",
+      "room_image": "",
+      "title": "Emerge",
+      "size": "42 × 60 cm",
+      "medium": "Acryl auf Papier",
+      "year": "",
+      "price": "110 €",
+      "framing": "Ungerahmt",
+      "status": "Available"
+    },
+    {
+      "category": "paper",
+      "image": "poesie.jpg",
+      "room_image": "",
+      "title": "Poesie",
+      "size": "42 × 60 cm",
+      "medium": "Acryl & Marker auf Papier",
+      "year": "",
+      "price": "220 €",
+      "framing": "Ungerahmt",
+      "status": "Available"
+    },
+    {
+      "category": "paper",
+      "image": "beyond.jpg",
+      "room_image": "",
+      "title": "Beyond",
+      "size": "42 × 60 cm",
+      "medium": "Acryl & Marker auf Papier",
+      "year": "",
+      "price": "",
+      "framing": "Ungerahmt",
+      "status": "Sold"
     }
   ],
   "exhibitions": [
     {
+      "date": "März 2026",
       "title": "Hamburg zeigt Kunst",
       "location": "Cruise Center Hamburg",
-      "year": "März 2026",
       "description": "Teilnahme an Hamburg zeigt Kunst im Cruise Center Hamburg."
     },
     {
+      "date": "2026",
       "title": "Schaufenster zeigt Kunst",
       "location": "Altonale, Hamburg-Altona",
-      "year": "2026",
       "description": "Präsentation ausgewählter Werke im Rahmen der Altonale."
     },
     {
-      "title": "Rahmenwelt Ottensen",
+      "date": "2026",
+      "title": "Rahmenkunst",
       "location": "Hamburg-Ottensen",
-      "year": "2026",
-      "description": "Präsentation eigener Werke in den Geschäftsräumen der Rahmenwelt Ottensen."
+      "description": "Präsentation eigener Werke in den Geschäftsräumen von Rahmenkunst."
     }
-  ],
-  "hero_image": "hero.png",
-  "about_image": "portrait-1.jpg"
+  ]
 }
