@@ -1,0 +1,6 @@
+WICHTIG:
+- Der Inhalt dieses ZIP-Archivs gehört direkt in das Hauptverzeichnis des GitHub-Repositories.
+- index.html im Hauptverzeichnis ist die öffentliche Homepage.
+- admin/index.html ist die Verwaltungsseite unter /admin/.
+- Den Ordner admin NICHT als Netlify-Publish-Verzeichnis auswählen.
+- Netlify Publish directory: . (Punkt / Repository-Hauptverzeichnis)
